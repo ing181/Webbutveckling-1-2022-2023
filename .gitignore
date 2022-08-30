@@ -1,0 +1,10 @@
+# Ignore Everything
+*
+# But not .css, .html
+!*.css
+!*.html
+!*.readme
+# Or directories
+!*/
+!.gitignore
+!README.md

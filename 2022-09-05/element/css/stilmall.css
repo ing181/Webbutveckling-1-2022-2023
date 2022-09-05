@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+
+div {
+    background-color:chartreuse;
+    
+}
+span {
+
+    background-color: chartreuse;
+}
+h1 {
+   /* egenskap:värde; */
+   /* Pröva olika "egenskaper:värde" */
+    color:orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+

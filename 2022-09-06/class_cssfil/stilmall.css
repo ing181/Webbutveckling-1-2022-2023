@@ -1,0 +1,20 @@
+html {
+    display:flex;
+}
+
+div {
+    width:200px;
+    height:100px;
+    border-style: solid;
+    border-width: 2px;
+    
+} 
+/* En klass "en sak med dessa egenskaper" */
+.bluediv {
+background-color:blue;
+color:white;
+}
+.reddiv {
+background-color:red;
+}
+

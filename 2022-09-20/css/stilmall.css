@@ -1,0 +1,39 @@
+body {
+    display:flex;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: aqua;
+    border-style: solid;
+    border-color: brown;
+    display:flex;
+    flex-direction: column;
+    width:80%;
+
+}
+header {
+    background-color: rgb(87, 10, 123);
+    border-style: solid;
+    border-color: azure;
+    display:flex;
+    justify-content: center;
+}
+
+.mitten {
+    background-color:green;
+    border-style: solid;
+    border-color:aquamarine;
+    display: flex;
+    justify-content: row;
+}
+
+article {
+    background-color:yellow;
+    border-style: solid;
+    border-color:darkgoldenrod;
+    padding: 5px;
+    margin-left:10px;
+    margin-right:10px;
+}

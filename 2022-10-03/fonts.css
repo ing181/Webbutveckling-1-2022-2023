@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Oswald;
+    src: url("fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: Oswald;
+    src: url("fonts/Gemunu/GemunuLibre-VariableFont_wght.ttf");
+}
+
+
+* {
+    font-family: Oswald;
+    font-style:italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: GemunuLibre;
+    font-style:normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+.downloaded_from_google {
+font-family: "Sofia", sans-serif;
+}

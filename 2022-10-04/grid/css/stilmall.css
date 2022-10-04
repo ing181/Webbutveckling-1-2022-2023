@@ -1,0 +1,37 @@
+body {
+    margin:0;
+}
+.parent {
+background-color:black;
+display: grid;
+grid-auto-flow: column;
+
+
+}
+
+.child {
+
+  display: flex;
+  background-color: green;
+  border-style: solid;
+ 
+  /*
+  zero would be the same as specifying "width: 0"
+  -- and thus will collapse the element to its smallest
+  possible width given the content,
+  or to zero itself if its overflow is hidden
+  or the element is directly
+  sizable (an image for example.)
+  */
+}
+
+.child1 {
+   
+    grid-column: 1 / 4;
+    
+}
+.child2 {
+    
+  
+   
+}

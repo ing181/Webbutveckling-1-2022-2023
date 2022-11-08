@@ -1,0 +1,39 @@
+.parent {
+    display:flex;
+    /* Vald huvudriktning */
+    flex-direction: row;
+    /* I vald huvudriktning 
+    orienterar sig barnen */
+    justify-content: space-between;
+    /* I rät vinkel mot huvudaxeln 
+    orienterar sig barnen */
+    align-items:flex-end;
+    background-color: blue;
+    border-style: solid;
+    border-width: 2px;
+    height:300px;
+}
+.children {
+    background-color: chartreuse;
+    border-style: solid;
+    border-width: 2px;
+    width:300px;
+    height: 200px;
+  
+}
+
+.skrynkla {
+    flex-shrink: 2;
+}
+
+.ordning {
+    order:1;
+}
+
+@media only screen and (max-width:600px) {
+
+    .parent {
+        flex-direction:column;
+    }
+
+}

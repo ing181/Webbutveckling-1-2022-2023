@@ -1,0 +1,57 @@
+
+
+/*
+Om  "Pseudo-classes"
+Definierar vad som händer vid ett tillstånd
+
+Syntax: "Så skrivs det i CSS"
+selector:pseudo-class {
+property: value;
+}
+Exempel
+*/
+img:hover {
+    border-width: 6px;
+    border-style: double;
+}
+
+
+
+
+/*
+Om  "Pseudo-elements"
+Definierar en del av ett element
+
+Syntax: 
+
+selector::pseudo-element {
+property: value;
+}
+Exempel
+*/
+p {
+    font-size: x-large;
+}
+p::first-letter {
+    font-size: xx-large;
+    color:yellow;
+
+}
+
+p::before {
+
+        content: "Detta ska stå först i alla p";
+   
+}
+
+.red_text {
+
+    color:red;
+
+}
+
+#trademark {
+
+    color:red;
+
+}

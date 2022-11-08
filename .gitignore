@@ -4,6 +4,8 @@
 !*.css
 !*.html
 !*.readme
+!*.jpg
+!*.png
 # Or directories
 !*/
 !.gitignore

@@ -6,6 +6,8 @@
 !*.readme
 !*.jpg
 !*.png
+!*.webp
+!*.gif
 # Or directories
 !*/
 !.gitignore

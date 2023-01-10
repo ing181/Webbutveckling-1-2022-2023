@@ -1,0 +1,31 @@
+.body {
+ 
+
+  
+}
+
+.container{
+  background-color:black;
+  border-style: solid;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+}
+
+.rad{
+   background-color: blue;
+   border-style: solid;
+   border-color:green;
+   display:flex;
+   justify-content:space-evenly;
+
+}
+
+.item{
+  background-color: yellow;
+  border-style: solid;
+  border-color: greenyellow;
+  width:40px;
+  height: 60px;
+
+}

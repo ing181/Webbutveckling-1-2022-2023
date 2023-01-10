@@ -1,0 +1,20 @@
+
+function klickat()
+{
+  var bollen = document.getElementById("boll");
+  bollen.style.border = "thick solid #0000FF";
+/*document.getElementById("boll").style.border = "thick solid #0000FF";*/
+}
+function addera(varnr1,varnr2)
+{
+                                       /* "nr1" */
+    var text1 = document.getElementById(varnr1).value;
+    var text2 = document.getElementById(varnr2).value;
+    // "Number()" talar om att det är ett numeriskt värde
+     var summa = Number(text1) + Number(text2);
+    //var summa = text1 + text2;
+    document.getElementById("utvarde").innerHTML = summa;
+
+    //alert(summa);
+}
+

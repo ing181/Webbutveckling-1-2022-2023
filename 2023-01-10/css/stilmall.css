@@ -1,0 +1,50 @@
+body {
+  display:flex;
+  /* Det som finns i body orienterar sig
+  horisontellt i mitten eftersom
+  ingen "flex-direction" är angiven
+  är der "row" som är flex-direction.
+  Tänk: x-axeln
+  */
+  justify-content: center;
+  /* vissa webbläsare har vita kanter
+  närmast skärmkanterna om man inte anger
+  "margin:0;" */
+  margin:0;
+}
+.container {
+ /* position: relative; */
+  width:80%;
+  background-color:green;
+  border: 1px solid #2d2d2d;
+}
+
+.mydiv {
+
+   position: fixed;
+ /* I förhållande till webbläsarfönstret */
+
+ /* position: static; */
+ /* I sin naturliga position enligt html-filen */
+
+ /*position:relative;*/
+ /* relativt (i förhållande till) sin
+ "naturliga" position. Positionen den får i html-filen */
+
+ /* position:absolute; */
+  /* Ignorerar det naturliga flödet 
+  positionerar sig efter närmaste 
+  föräldraelement som 
+  är relativt positionerad. */
+   /* förutsätter att "container"
+ har "position: relative;" */
+
+   top:100px;
+   left:200px;
+   
+   background-color: yellow;
+   border-style: solid;
+   padding:10px;
+   /*border-radius:10px;*/ 
+   /* runda hörn */
+}

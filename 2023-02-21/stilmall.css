@@ -13,15 +13,42 @@ body {
   margin:0;
 }
 .container {
- /* position: relative; */
+  position: relative; 
   width:80%;
-  background-color:green;
+  background-color:yellow;
   border: 1px solid #2d2d2d;
-  display-flex;
+  display:flex;
 }
 
-.mydiv1 {
+.mydiv {
    
-   background-color:redN
+   width: 120px;
+   height: 90px;
+
+}
+.zindex1 {
+  /*   An element with position: relative; 
+  is positioned relative to its normal position. */
+  position: relative;
+  background-color:green;
+  border-style: solid;
+  z-index: 1;
+
+}
+
+.zindex2 {
+  position: relative;
+  background-color:red;
+  border-style: solid;
+  z-index: 1;
+  top:40px;
+  left:40px;
+
+}
+.zindex3 {
+  position: relative;
+  background-color:black;
+  border-style: solid;
+  z-index: 1;
 
 }

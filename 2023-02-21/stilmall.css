@@ -1,0 +1,27 @@
+body {
+  display:flex;
+  /* Det som finns i body orienterar sig
+  horisontellt i mitten eftersom
+  ingen "flex-direction" är angiven
+  är der "row" som är flex-direction.
+  Tänk: x-axeln
+  */
+  justify-content: center;
+  /* vissa webbläsare har vita kanter
+  närmast skärmkanterna om man inte anger
+  "margin:0;" */
+  margin:0;
+}
+.container {
+ /* position: relative; */
+  width:80%;
+  background-color:green;
+  border: 1px solid #2d2d2d;
+  display-flex;
+}
+
+.mydiv1 {
+   
+   background-color:redN
+
+}
